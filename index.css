@@ -116,3 +116,71 @@
     color: #ffffff;
     text-decoration: none;
 }
+
+
+.main {
+    background-image: url(assets/images/фон.png);    
+    max-width: 1920px;
+}
+
+.education-info_wrap {
+    padding-top: 186.7px;
+    margin-left: 353px;
+}
+
+.row-line {
+    width: 120px;
+    height: 8px;
+    background-color: #c93555;
+}
+
+.education-info-title__text {
+    font-family: 'Helvetica Neue Cyr';
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #c93555;
+}
+
+.education-info-name__title {
+    font-family: 'Helvetica Neue Cyr';
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #fefefe;
+}
+
+.education-info-name__description {
+    font-family: 'Helvetica Neue Cyr';
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #fefefe;
+}
+
+.condition {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.condition__item {
+    font-family: 'Helvetica Neue Cyr';
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #fefefe;
+    margin-left: 0;
+    padding-left: 0;
+    margin-right: 90px;
+}
+
+.condition__item span {
+    display: block;
+    font-family: 'Helvetica Neue Cyr';
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fefefe;
+}
