@@ -130,7 +130,7 @@
 }
 
 .button {
-    width: 257px;
+    width: 258px;
     height: 79px;
     border-radius: 39px;
     background-color: #c93555;
@@ -159,65 +159,122 @@
     max-width: 1920px;
 }
 
+.main_container {
+    width: 81.5%;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.education-info {
+    flex-direction: column;
+}
+
 .education-info_wrap {
-    padding-top: 186.7px;
-    margin-left: 353px;
+    padding-top: 182px;
+    padding-bottom: 244px;
 }
 
 .row-line {
-    width: 120px;
-    height: 8px;
     background-color: #c93555;
+}
+
+.education-info-title__row-line {
+    width: 120px;
+    height: 6px;
 }
 
 .education-info-title__text {
     font-family: 'HelveticaNeueCyr';
-    font-size: 24px;
+    font-size: 22px;
     line-height: 1.2;
     font-weight: 500;
     color: #c93555;
+    padding-top: 11px;
+}
+
+.education-info-name {
+    font-family: 'HelveticaNeueCyr';   
+    line-height: 1.2;
+    color: #fefefe;
 }
 
 .education-info-name__title {
-    font-family: 'HelveticaNeueCyr';
-    font-weight: 700;
     font-size: 50px;
-    line-height: 1.2;
     font-weight: 700;
-    color: #fefefe;
+    padding-top: 47px;
+    text-transform: uppercase;
 }
 
 .education-info-name__description {
-    font-family: 'HelveticaNeueCyr';
     font-size: 24px;
-    line-height: 1.2;
     font-weight: 500;
-    color: #fefefe;
+    padding-top: 44px;
 }
 
-.condition {
+.education-info-button_position {
+    padding-top: 83px;
+}
+
+.education-info_button {
+    font-family: 'HelveticaNeueCyr';
+    font-weight: 500;
+    font-size: 24px;
+    margin-left: -3px;
+}
+
+.education-info-button-position {
+    margin-top: -11px;
+    margin-left: -8px;
+}
+
+.education-info-condition {
     display: flex;
     list-style-type: none;
-    padding: 0;
-}
-
-.condition__item {
     font-family: 'HelveticaNeueCyr';
-    font-size: 24px;
     line-height: 1.2;
-    font-weight: 500;
     color: #fefefe;
-    margin-left: 0;
-    padding-left: 0;
-    margin-right: 90px;
 }
 
-.condition__item span {
-    display: block;
-    font-family: 'HelveticaNeueCyr';
+.education-info-condition_position {
+    padding-top: 50px;
+}
+
+.education-info-condition__title {
     font-size: 16px;
-    line-height: 1.2;
     font-weight: 300;
     text-transform: uppercase;
-    color: #fefefe;
 }
+
+.education-info-condition .education-info-condition__item_position:nth-child(1),
+.education-info-condition .education-info-condition__item_position:nth-child(2) {
+    margin-right: 87px;
+}
+
+.education-info-condition .education-info-condition__item_position:nth-child(2) {
+    margin-right: 85px;
+}
+
+.education-info-condition__text {   
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.education-info-condition__text_position {
+    padding-top: 10px;
+    padding-left: 2px;
+}
+
+/* .education-info-condition .condition__item:nth-child(1) {
+    margin-right: 87px;
+} */
+
+/* .education-info-condition .condition__item:nth-child(2) {
+    margin-right: 87px;
+} */
+
+
+
+/* .condition__title_position {
+    margin-top: 10px;
+    margin-left: 10px;
+} */

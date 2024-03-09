@@ -27,22 +27,45 @@
         </div>
     </header>
     <main class="main">
-        <div class="education-info">
-            <div class="wrap education-info_wrap">
+        <div class="main_container">
+            <div class="wrap education-info education-info_wrap">
+
                 <div class="education-info-title">
                     <div class="row-line education-info-title__row-line"></div>
                     <div class="education-info-title__text">Профессия</div>
                 </div>
+
                 <div class="education-info-name">
                     <h2 class="education-info-name__title">Системный<br>администратор</h2>
                     <p class="education-info-name__description">Незаменимый специалист в любой компании</p>
                 </div>
-                <button class="button education-info_button"><a href="#" class="button__link">Записаться</a></button>
-                <ul class="condition">
-                    <li class="condition__item"><span>Стоимость</span>От 2700р/мес</li>
-                    <li class="condition__item"><span>Продолжительность</span>4 месяца</li>
-                    <li class="condition__item"><span>Форма обучения</span>Очная</li>
-                </ul>
+
+                <div class="education-info-button education-info-button_position">
+                    <button class="button education-info_button">
+                        <p class="education-info-button-position"><a href="#" class="button__link">Записаться</a></p>
+                    </button>
+                </div>
+
+
+                <!-- В данном блоке текст формат обучения и все три позиции под заголовками стоимость, обучение, формат обучения
+                    не имеют общей линии, в css решил оставить их центрированными, 
+                    
+                    но выровнял согласно макету расстояние между блоками (строки 247-264 в css)-->
+                <div class="education-info-condition education-info-condition_position">
+                    <div class="education-info-condition__item education-info-condition__item_position">
+                        <p class="education-info-condition__title">Стоимость</p>
+                        <p class="education-info-condition__text education-info-condition__text_position">От 2700р/мес</p>
+                    </div>
+                    <div class="education-info-condition__item education-info-condition__item_position">
+                        <p class="education-info-condition__title">Продолжительность</p>
+                        <p class="education-info-condition__text education-info-condition__text_position">3 месяца</p>
+                    </div>
+                    <div class="education-info-condition__item education-info-condition__item_position">
+                        <p class="education-info-condition__title">Формат обучения</p>
+                        <p class="education-info-condition__text education-info-condition__text_position">Очная</p>
+                    </div>  
+                </div>
+
             </div>
         </div>
     </main>
