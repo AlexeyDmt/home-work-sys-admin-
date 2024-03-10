@@ -75,6 +75,7 @@
     font-family: Arial;
     font-size: 18px;
     line-height: 1.2;
+    letter-spacing: -0.2px;
     text-transform: uppercase;
     color: #ffffff;
     width: 50%;
@@ -140,6 +141,7 @@
     font-family: 'HelveticaNeueCyr';
     font-size: 24px;
     font-weight: 500;
+    letter-spacing: -0.5px;
     text-transform: uppercase;
 }
 
@@ -154,12 +156,15 @@
 }
 
 
-.main {
-    background-image: url(assets/images/фон.png);    
+.main {   
     max-width: 1920px;
 }
 
-.main_container {
+.education-info__container {
+    background-image: url(assets/images/фон.png);   
+}
+
+.container {
     width: 81.5%;
     margin-left: auto;
     margin-right: 0;
@@ -201,6 +206,7 @@
 .education-info-name__title {
     font-size: 50px;
     font-weight: 700;
+    letter-spacing: 0.2px;
     padding-top: 47px;
     text-transform: uppercase;
 }
@@ -208,6 +214,7 @@
 .education-info-name__description {
     font-size: 24px;
     font-weight: 500;
+    letter-spacing: -0.1px;
     padding-top: 44px;
 }
 
@@ -243,15 +250,28 @@
     font-size: 16px;
     font-weight: 300;
     text-transform: uppercase;
+    padding-left: 2px;
 }
 
-.education-info-condition .education-info-condition__item_position:nth-child(1),
-.education-info-condition .education-info-condition__item_position:nth-child(2) {
-    margin-right: 87px;
+.education-info-condition .education-info-condition__item_position:nth-child(1) {
+    margin-right: 82px;
 }
 
 .education-info-condition .education-info-condition__item_position:nth-child(2) {
     margin-right: 85px;
+}
+
+.education-info-condition .education-info-condition__item_position:nth-child(3) {
+    margin-top: 2px;
+}
+
+.education-info-condition_position .education-info-condition__item_position:nth-child(2) .education-info-condition__text_position {
+    margin-top: -3px;
+    margin-left: 4px;
+}
+
+.education-info-condition_position .education-info-condition__item_position:nth-child(3) .education-info-condition__text_position {
+    margin-top: -3px;
 }
 
 .education-info-condition__text {   
@@ -264,17 +284,68 @@
     padding-left: 2px;
 }
 
-/* .education-info-condition .condition__item:nth-child(1) {
-    margin-right: 87px;
-} */
+.about-profession__container {
+    background-color: #040440;
+}
 
-/* .education-info-condition .condition__item:nth-child(2) {
-    margin-right: 87px;
-} */
+.about-profession__wrap {
+    padding-bottom: 155px;
+}
 
+.about-profession {
+    display: flex;
+}
 
+.about-profession__wrap {
+    padding-top: 14px;
+}
 
-/* .condition__title_position {
-    margin-top: 10px;
+.about-profession__image {
+    width: 39%;
+    padding-left: 40px;
+}
+
+.about-profession_text-item {
+    width: 56%;
     margin-left: 10px;
-} */
+    margin-top: -6px;
+}
+
+.text-title {
+    position: relative;
+}
+
+.text-title__row-line {
+    position: absolute;
+    width: 9px;
+    height: 65px;
+    left: -21px;
+    top: -3px;
+}
+
+.text-title__text {
+    font-family: 'HelveticaNeueCyr';
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.text-description__text {
+    font-family: 'HelveticaNeueCyr';
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: 0.06px;
+    font-weight: 100;
+    color: #ffffff;
+}
+
+.text-description__position {
+    padding-top: 60px;
+    padding-left: 1px;
+}
+
+.text-description .text-description__text:nth-child(1) {
+    padding-bottom: 35px;
+}
