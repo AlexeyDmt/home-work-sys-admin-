@@ -161,6 +161,7 @@
 }
 
 .education-info__container {
+    position: relative;
     background-image: url(assets/images/фон.png);   
 }
 
@@ -284,12 +285,21 @@
     padding-left: 2px;
 }
 
+.blue-line {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    background-color: #040440;
+}
+
 .about-profession__container {
     background-color: #040440;
 }
 
 .about-profession__wrap {
-    padding-bottom: 155px;
+    padding-bottom: 139px;
 }
 
 .about-profession {
@@ -348,4 +358,95 @@
 
 .text-description .text-description__text:nth-child(1) {
     padding-bottom: 35px;
+}
+
+.about-course__container {
+    background-color: #130b5b;
+    padding-top: 67px;
+    padding-left: 12px;
+}
+
+.about-course {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-course__wrap {
+    margin-right: auto;
+}
+
+.about-course__text-item {
+    width: 100%;
+    display: flex;
+}
+
+.row-line_about-course-position {
+    left: -13px;
+}
+
+.text-description_about-course-position {
+    margin-left: -9px;
+}
+
+.text-description__text__fix-text {
+    letter-spacing: 0.02px;
+}
+
+.text-description__text__fix-text1 {
+    letter-spacing: 0.6px;
+}
+
+.about-course-doc__text-item {
+    display: flex;
+    padding-top: 16px;
+}
+
+.about-course-doc__text-item-width {
+    width: 55%;
+}
+
+.row-line_about-course-doc-position {
+    left: -13px;
+    top: 3px;
+}
+
+.text-title_about-course-doc-position {
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    padding-top: 17px;
+}
+
+.text-description_about-course-doc-position {
+    margin-left: -8px;
+    margin-top: 34px;
+    padding: 0;
+}
+
+.text-description_about-course-doc-position {
+    letter-spacing: -1.32px;
+    margin-left: -3px;
+}
+
+.about-course-button {
+    width: 45%;
+}
+
+.about-course-button_button {
+    font-family: 'HelveticaNeueCyr';
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #ffffff;
+    width: 537px;
+    height: 155px;
+    border-radius: 30px;
+    margin-left: -5px;
+    margin-top: 16px;
+}
+
+.about-course-button_position {
+    padding-bottom: 13px;
+    letter-spacing: -0.5px;
 }
