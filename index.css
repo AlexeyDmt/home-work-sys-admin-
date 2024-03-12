@@ -1,55 +1,55 @@
 @font-face {
     font-family:'Arial';
-    src: url(/assets/fonts/Arial/ArialMT.eot) format('oet');
-    src: local('ArialMT'), url(/assets/fonts/Arial/ArialMT.woff) format('woff'), url(/assets/fonts/Arial/ArialMT.woff2) format('woff2'), url(/assets/fonts/Arial/ArialMT.ttf) format('ttf');  
+    src: url(../assets/fonts/Arial/ArialMT.eot) format('oet');
+    src: local('ArialMT'), url(../assets/fonts/Arial/ArialMT.woff) format('woff'), url(../assets/fonts/Arial/ArialMT.woff2) format('woff2'), url(../assets/fonts/Arial/ArialMT.ttf) format('ttf');  
     font-style: normal;
     font-weight: 400;  
 }
 
 @font-face {
     font-family:'HelveticaNeueCyr';
-    src: url(/assets/fonts/Helveticaneuecyr/helveticaneuecyr-thin.eot) format('oet');
-    src: local('HelveticaNeueCyr'), url(/assets/fonts/Helveticaneuecyr/helveticaneuecyr-thin.woff) format('woff'), url(/assets/fonts/Helveticaneuecyr/helveticaneuecyr-thin.ttf) format('ttf');
+    src: url(../assets/fonts/Helveticaneuecyr/helveticaneuecyr-thin.eot) format('oet');
+    src: local('HelveticaNeueCyr'), url(../assets/fonts/Helveticaneuecyr/helveticaneuecyr-thin.woff) format('woff'), url(../assets/fonts/Helveticaneuecyr/helveticaneuecyr-thin.ttf) format('ttf');
     font-style: normal;
     font-weight: 100;
 }
 
 @font-face {
     font-family:'HelveticaNeueCyr';
-    src: url(/assets/fonts/Helveticaneuecyr/helveticaneuecyr-light.eot) format('oet');
-    src: local('HelveticaNeueCyr'), url(/assets/fonts/Helveticaneuecyr/helveticaneuecyr-light.woff) format('woff'), url(/assets/fonts/Helveticaneuecyr/helveticaneuecyr-light.ttf) format('ttf');
+    src: url(../assets/fonts/Helveticaneuecyr/helveticaneuecyr-light.eot) format('oet');
+    src: local('HelveticaNeueCyr'), url(../assets/fonts/Helveticaneuecyr/helveticaneuecyr-light.woff) format('woff'), url(../assets/fonts/Helveticaneuecyr/helveticaneuecyr-light.ttf) format('ttf');
     font-style: normal;
     font-weight: 300;
 }
 
 @font-face {
     font-family:'HelveticaNeueCyr';
-    src: url(/assets/fonts/Helveticaneuecyr/helveticaneuecyr-roman.eot) format('oet');
-    src: local('HelveticaNeueCyr'), url(/assets/fonts/Helveticaneuecyr/helveticaneuecyr-roman.woff) format('woff'), url(/assets/fonts/Helveticaneuecyr/helveticaneuecyr-roman.ttf) format('ttf');
+    src: url(../assets/fonts/Helveticaneuecyr/helveticaneuecyr-roman.eot) format('oet');
+    src: local('HelveticaNeueCyr'), url(../assets/fonts/Helveticaneuecyr/helveticaneuecyr-roman.woff) format('woff'), url(../assets/fonts/Helveticaneuecyr/helveticaneuecyr-roman.ttf) format('ttf');
     font-style: normal;
     font-weight: 400;  
 }
 
 @font-face {
     font-family:'HelveticaNeueCyr';
-    src: url(/assets/fonts/Helveticaneuecyr/helveticaneuecyr-medium.eot) format('oet');
-    src: local('HelveticaNeueCyr'), url(/assets/fonts/Helveticaneuecyr/helveticaneuecyr-medium.woff) format('woff'), url(/assets/fonts/Helveticaneuecyr/helveticaneuecyr-medium.ttf) format('ttf');
+    src: url(../assets/fonts/Helveticaneuecyr/helveticaneuecyr-medium.eot) format('oet');
+    src: local('HelveticaNeueCyr'), url(../assets/fonts/Helveticaneuecyr/helveticaneuecyr-medium.woff) format('woff'), url(../assets/fonts/Helveticaneuecyr/helveticaneuecyr-medium.ttf) format('ttf');
     font-style: normal;
     font-weight: 500;  
 }
 
 @font-face {
     font-family:'HelveticaNeueCyr';
-    src: url(/assets/fonts/Helveticaneuecyr/helveticaneuecyr-bold.eot) format('oet');
-    src: local('HelveticaNeueCyr'), url(/assets/fonts/Helveticaneuecyr/helveticaneuecyr-bold.woff) format('woff'), url(/assets/fonts/Helveticaneuecyr/helveticaneuecyr-bold.ttf) format('ttf');
+    src: url(../assets/fonts/Helveticaneuecyr/helveticaneuecyr-bold.eot) format('oet');
+    src: local('HelveticaNeueCyr'), url(../assets/fonts/Helveticaneuecyr/helveticaneuecyr-bold.woff) format('woff'), url(../assets/fonts/Helveticaneuecyr/helveticaneuecyr-bold.ttf) format('ttf');
     font-style: normal;
     font-weight: 700;  
 }
 
 @font-face {
     font-family:'HelveticaNeueCyr';
-    src: url(/assets/fonts/Helveticaneuecyr/helveticaneuecyr-heavy.eot) format('oet');
-    src: local('HelveticaNeueCyr'), url(/assets/fonts/Helveticaneuecyr/helveticaneuecyr-heavy.woff) format('woff'), url(/assets/fonts/Helveticaneuecyr/helveticaneuecyr-heavy.ttf) format('ttf');
+    src: url(../assets/fonts/Helveticaneuecyr/helveticaneuecyr-heavy.eot) format('oet');
+    src: local('HelveticaNeueCyr'), url(../assets/fonts/Helveticaneuecyr/helveticaneuecyr-heavy.woff) format('woff'), url(../assets/fonts/Helveticaneuecyr/helveticaneuecyr-heavy.ttf) format('ttf');
     font-style: normal;
     font-weight: 900;  
 }
