@@ -364,6 +364,7 @@
     background-color: #130b5b;
     padding-top: 67px;
     padding-left: 12px;
+    padding-bottom: 209px;
 }
 
 .about-course {
@@ -449,4 +450,88 @@
 .about-course-button_position {
     padding-bottom: 13px;
     letter-spacing: -0.5px;
+}
+
+.footer {
+    background-color: #080742;
+    height: 111px;
+}
+.footer-container {
+    width: 64.5%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.social-list {
+    list-style-type: none;
+    display: flex;
+    padding-left: 14px;
+    padding-top: 59px;
+}
+
+.social-list__item {
+    padding-right: 17px;
+}
+
+.social-list .social-list__item:last-child {
+    padding-right: 0;
+}
+
+.social-list__link {
+    text-decoration: none;
+}
+
+.social-list__link img {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.address {
+    font-family: 'HelveticaNeueCyr';
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.address_footer-position {
+    padding-top: 46px;
+    padding-left: 118px;
+}
+
+.address__text {
+    font-style: normal;
+}
+
+.address__text span {
+    letter-spacing: -0.5px;
+}
+
+.email-address {
+    font-family: 'HelveticaNeueCyr';
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.email-address_footer-position {
+    padding-top: 51px;
+    padding-left: 105px;
+}
+
+.telephon-number {
+    font-family: 'HelveticaNeueCyr';
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.telephon-number_footer-position {
+    margin-left: auto;
+    padding-top: 50px;
+    margin-right: -13px;
 }
